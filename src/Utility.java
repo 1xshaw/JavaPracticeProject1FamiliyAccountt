@@ -49,7 +49,7 @@ public class Utility {
     public static char readConfirmSelection() {
         char c;
         for (; ; ) {
-            String str = readKeyBoard(1).toUpperCase();
+            String str = readKeyBoard(1).toUpperCase();  // trans to upper case
             c = str.charAt(0);
             if (c == 'Y' || c == 'N') {
                 break;
